@@ -1,0 +1,194 @@
+[
+  {
+    "id": 1,
+    "name": "Đùi dê tươi nguyên chiếc",
+    "price": [
+      {
+        "size": "Lẻ 1kg",
+        "price": "340.000đ/kg"
+      },
+      {
+        "size": "5kg trở lên",
+        "price": "310.000đ/kg"
+      },
+      {
+        "size": "10kg trở lên",
+        "price": "310.000đ/kg"
+      },
+      {
+        "size": "20kg trở lên",
+        "price": "305.000đ/kg"
+      }
+    ],
+    "description": "Đùi trước 1.2-2 kg/cái, đùi sau 2-3 kg/cái",
+    "image": "/images/dui-de.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Sườn dê tươi",
+    "price": [
+      {
+        "size": "Lẻ 1kg",
+        "price": "340.000đ/kg"
+      },
+      {
+        "size": "5kg trở lên",
+        "price": "310.000đ/kg"
+      },
+      {
+        "size": "10kg trở lên",
+        "price": "310.000đ/kg"
+      },
+      {
+        "size": "20kg trở lên",
+        "price": "305.000đ/kg"
+      }
+    ],
+    "description": "3-4 kg/miếng",
+    "image": "/images/dui-de.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Ba chỉ dê tươi",
+    "price": [
+      {
+        "size": "Lẻ 1kg",
+        "price": "340.000đ/kg"
+      },
+      {
+        "size": "5kg trở lên",
+        "price": "310.000đ/kg"
+      },
+      {
+        "size": "10kg trở lên",
+        "price": "310.000đ/kg"
+      },
+      {
+        "size": "20kg trở lên",
+        "price": "305.000đ/kg"
+      }
+    ],
+    "description": "",
+    "image": "/images/dui-de.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Cổ dê",
+    "price": [
+      {
+        "size": "Lẻ 1kg",
+        "price": "320.000đ/kg"
+      },
+      {
+        "size": "5kg trở lên",
+        "price": "290.000đ/kg"
+      },
+      {
+        "size": "10kg trở lên",
+        "price": "290.000đ/kg"
+      },
+      {
+        "size": "20kg trở lên",
+        "price": "290.000đ/kg"
+      }
+    ],
+    "description": "1-2 kg/cái",
+    "image": "/images/dui-de.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Thịt dê rút xương",
+    "price": [
+      {
+        "size": "Lẻ 1kg",
+        "price": "405.000đ/kg"
+      },
+      {
+        "size": "5kg trở lên",
+        "price": "400.000đ/kg"
+      },
+      {
+        "size": "10kg trở lên",
+        "price": "390.000đ/kg"
+      },
+      {
+        "size": "20kg trở lên",
+        "price": "390.000đ/kg"
+      }
+    ],
+    "description": "Dê đực, cái tơ 15-25 kg/con",
+    "image": "/images/dui-de.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Sườn dê rút xương",
+    "price": [
+      {
+        "size": "Lẻ 1kg",
+        "price": "430.000đ/kg"
+      },
+      {
+        "size": "5kg trở lên",
+        "price": "410.000đ/kg"
+      },
+      {
+        "size": "10kg trở lên",
+        "price": "410.000đ/kg"
+      },
+      {
+        "size": "20kg trở lên",
+        "price": "405.000đ/kg"
+      }
+    ],
+    "description": "Dê đực, cái tơ 15-25 kg/con",
+    "image": "/images/dui-de.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Đùi dê rút xương",
+    "price": [
+      {
+        "size": "Lẻ 1kg",
+        "price": "425.000đ/kg"
+      },
+      {
+        "size": "5kg trở lên",
+        "price": "410.000đ/kg"
+      },
+      {
+        "size": "10kg trở lên",
+        "price": "410.000đ/kg"
+      },
+      {
+        "size": "20kg trở lên",
+        "price": "405.000đ/kg"
+      }
+    ],
+    "description": "Dê đực, cái tơ 15-25 kg/con",
+    "image": "/images/dui-de.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Đùi dê rút xương",
+    "price": [
+      {
+        "size": "Lẻ 1kg",
+        "price": "425.000đ/kg"
+      },
+      {
+        "size": "5kg trở lên",
+        "price": "410.000đ/kg"
+      },
+      {
+        "size": "10kg trở lên",
+        "price": "410.000đ/kg"
+      },
+      {
+        "size": "20kg trở lên",
+        "price": "405.000đ/kg"
+      }
+    ],
+    "description": "Dê đực, cái tơ 15-25 kg/con",
+    "image": "/images/dui-de.jpg"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Dê đực tơ móc hàm",
+    "price": [
+      {
+        "size": "",
+        "price": "305.000đ/kg"
+      }
+    ],
+    "description": "15 - 25 kg/con",
+    "image": "/images/dui-de.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Dê cái tơ móc hàm",
+    "price": [
+      {
+        "size": "",
+        "price": "295.000đ/kg"
+      }
+    ],
+    "description": "12 - 25 kg/con",
+    "image": "/images/dui-de.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Dê đực tơ nguyên đầu giò",
+    "price": [
+      {
+        "size": "",
+        "price": "295.000đ/kg"
+      }
+    ],
+    "description": "12 - 25 kg/con",
+    "image": "/images/dui-de.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Dê cái tơ nguyên đầu giò",
+    "price": [
+      {
+        "size": "",
+        "price": "285.000đ/kg"
+      }
+    ],
+    "description": "12 - 25 kg/con",
+    "image": "/images/dui-de.jpg"
+  }
+]
