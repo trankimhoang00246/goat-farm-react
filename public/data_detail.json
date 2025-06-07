@@ -5,23 +5,23 @@
     "price": [
       {
         "size": "Lẻ 1kg",
-        "price": "340.000"
+        "price": "350.000"
       },
       {
         "size": "5kg trở lên",
-        "price": "310.000"
+        "price": "340.000"
       },
       {
         "size": "10kg trở lên",
-        "price": "310.000"
+        "price": "330.000"
       },
       {
         "size": "20kg trở lên",
-        "price": "305.000"
+        "price": "330.000"
       }
     ],
     "description": "Đùi trước 1.2-2 kg/cái, đùi sau 2-3 kg/cái",
-    "image": "/images/dui-de.jpg"
+    "image": "/images/dui_de.jpg"
   },
   {
     "id": 2,
@@ -29,47 +29,47 @@
     "price": [
       {
         "size": "Lẻ 1kg",
-        "price": "340.000"
+        "price": "350.000"
       },
       {
         "size": "5kg trở lên",
-        "price": "310.000"
+        "price": "340.000"
       },
       {
         "size": "10kg trở lên",
-        "price": "310.000"
+        "price": "330.000"
       },
       {
         "size": "20kg trở lên",
-        "price": "305.000"
+        "price": "330.000"
       }
     ],
     "description": "3-4 kg/miếng",
-    "image": "/images/dui-de.jpg"
+    "image": "/images/suon_de.png"
   },
   {
     "id": 4,
-    "name": "Ba chỉ dê tươi",
+    "name": "Xương ống dê bán kèm thịt",
     "price": [
       {
         "size": "Lẻ 1kg",
-        "price": "340.000"
+        "price": "70.000"
       },
       {
         "size": "5kg trở lên",
-        "price": "310.000"
+        "price": "40.000"
       },
       {
         "size": "10kg trở lên",
-        "price": "310.000"
+        "price": "40.000"
       },
       {
         "size": "20kg trở lên",
-        "price": "305.000"
+        "price": "40.000"
       }
     ],
     "description": "",
-    "image": "/images/dui-de.jpg"
+    "image": "/images/Xương ống dê.jpg"
   },
   {
     "id": 5,
@@ -77,23 +77,23 @@
     "price": [
       {
         "size": "Lẻ 1kg",
-        "price": "320.000"
+        "price": "330.000"
       },
       {
         "size": "5kg trở lên",
-        "price": "290.000"
+        "price": "325.000"
       },
       {
         "size": "10kg trở lên",
-        "price": "290.000"
+        "price": "320.000"
       },
       {
         "size": "20kg trở lên",
-        "price": "290.000"
+        "price": "310.000"
       }
     ],
     "description": "1-2 kg/cái",
-    "image": "/images/dui-de.jpg"
+    "image": "/images/co_de.png"
   },
   {
     "id": 6,
@@ -101,23 +101,23 @@
     "price": [
       {
         "size": "Lẻ 1kg",
-        "price": "405.000"
+        "price": "430.000"
       },
       {
         "size": "5kg trở lên",
-        "price": "400.000"
+        "price": "425.000"
       },
       {
         "size": "10kg trở lên",
-        "price": "390.000"
+        "price": "420.000"
       },
       {
         "size": "20kg trở lên",
-        "price": "390.000"
+        "price": "415.000"
       }
     ],
     "description": "Dê đực, cái tơ 15-25 kg/con",
-    "image": "/images/dui-de.jpg"
+    "image": "/images/de-rut-xuong-310000-8.jpg"
   },
   {
     "id": 7,
@@ -129,19 +129,19 @@
       },
       {
         "size": "5kg trở lên",
-        "price": "410.000"
+        "price": "425.000"
       },
       {
         "size": "10kg trở lên",
-        "price": "410.000"
+        "price": "420.000"
       },
       {
         "size": "20kg trở lên",
-        "price": "405.000"
+        "price": "415.000"
       }
     ],
     "description": "Dê đực, cái tơ 15-25 kg/con",
-    "image": "/images/dui-de.jpg"
+    "image": "/images/ba-roi-de-rut-xuong.jpg"
   },
   {
     "id": 8,
@@ -149,46 +149,22 @@
     "price": [
       {
         "size": "Lẻ 1kg",
-        "price": "425.000"
+        "price": "430.000"
       },
       {
         "size": "5kg trở lên",
-        "price": "410.000"
-      },
-      {
-        "size": "10kg trở lên",
-        "price": "410.000"
-      },
-      {
-        "size": "20kg trở lên",
-        "price": "405.000"
-      }
-    ],
-    "description": "Dê đực, cái tơ 15-25 kg/con",
-    "image": "/images/dui-de.jpg"
-  },
-  {
-    "id": 9,
-    "name": "Đùi dê rút xương",
-    "price": [
-      {
-        "size": "Lẻ 1kg",
         "price": "425.000"
       },
       {
-        "size": "5kg trở lên",
-        "price": "410.000"
-      },
-      {
         "size": "10kg trở lên",
-        "price": "410.000"
+        "price": "420.000"
       },
       {
         "size": "20kg trở lên",
-        "price": "405.000"
+        "price": "415.000"
       }
     ],
     "description": "Dê đực, cái tơ 15-25 kg/con",
-    "image": "/images/dui-de.jpg"
+    "image": "/images/thit-de-loc-xuong-1.png"
   }
 ]

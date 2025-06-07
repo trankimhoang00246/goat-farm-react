@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "name": "Dê đực tơ hơi 15kg",
+    "price": [
+      {
+        "size": "",
+        "price": "180.000"
+      },
+      {
+        "size": "",
+        "price": "170.000"
+      }
+    ],
+    "description": "15 kg/con. Dê còn sống.",
+    "image": "/images/deduoc.jpeg"
+  },
+  {
+    "id": 2,
+    "name": "Dê cái tơ hơi 15kg",
+    "price": [
+      {
+        "size": "",
+        "price": "160.000"
+      },
+      {
+        "size": "",
+        "price": "150.000"
+      }
+    ],
+    "description": "15 kg/con. Dê còn sống",
+    "image": "/images/de-co.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Dê đực tơ hơi 25kg",
+    "price": [
+      {
+        "size": "",
+        "price": "160.000"
+      },
+      {
+        "size": "",
+        "price": "150.000"
+      }
+    ],
+    "description": "25 kg/con. Dê còn sống",
+    "image": "/images/deduoc.jpeg"
+  },
+  {
+    "id": 4,
+    "name": "Dê cái tơ hơi 25kg",
+    "price": [
+      {
+        "size": "",
+        "price": "140.000"
+      },
+      {
+        "size": "",
+        "price": "135.000"
+      }
+    ],
+    "description": "25 kg/con. Dê còn sống",
+    "image": "/images/de-co.jpg"
+  }
+]

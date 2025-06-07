@@ -2,14 +2,20 @@ import { useEffect, useState } from "react";
 import type { Product, ProductPrice } from "../api/interface";
 import { Button, Card } from "antd";
 import { LeftOutlined, PhoneOutlined, RightOutlined } from "@ant-design/icons";
-import goatImage from "../../public/de_2con.jpg";
 
 interface IProps {
   productList: Product[];
   phone: string;
+  title?: string;
+  showNext?: boolean;
 }
 
-const ProductCarousel = ({ productList, phone }: IProps) => {
+const ProductCarousel = ({
+  productList,
+  phone,
+  title,
+  showNext = true,
+}: IProps) => {
   const [startIndex, setStartIndex] = useState(0);
   const displayCount = 4;
   const total = productList.length;
@@ -32,7 +38,7 @@ const ProductCarousel = ({ productList, phone }: IProps) => {
 
     const interval = setInterval(() => {
       setIsManual(false);
-    }, 5000);
+    }, 8000);
 
     return () => clearInterval(interval);
   }, [isManual]);
@@ -69,13 +75,15 @@ const ProductCarousel = ({ productList, phone }: IProps) => {
   return (
     <div className="py-8 px-4 bg-white">
       <h2 className="text-2xl font-bold text-center mb-6 text-gray-800">
-        Sản phẩm nổi bật
+        {title ? title : "Sản phẩm nổi bật"}
       </h2>
 
-      <div className="flex justify-end mb-4 gap-2">
-        <Button icon={<LeftOutlined />} onClick={handlePrev} />
-        <Button icon={<RightOutlined />} onClick={handleNext} />
-      </div>
+      {showNext && (
+        <div className="flex justify-end mb-4 gap-2">
+          <Button icon={<LeftOutlined />} onClick={handlePrev} />
+          <Button icon={<RightOutlined />} onClick={handleNext} />
+        </div>
+      )}
 
       {/* Responsive grid layout */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -86,7 +94,7 @@ const ProductCarousel = ({ productList, phone }: IProps) => {
             cover={
               <img
                 alt={product.name}
-                src={goatImage}
+                src={product.image}
                 className="h-48 w-full object-cover"
               />
             }

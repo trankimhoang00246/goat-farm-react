@@ -5,11 +5,15 @@
     "price": [
       {
         "size": "",
+        "price": "315.000"
+      },
+      {
+        "size": "",
         "price": "305.000"
       }
     ],
     "description": "15 - 25 kg/con. Dê được làm sạch, bỏ ruột và vẫn giữ nguyên đầu và chân.",
-    "image": "/images/dui-de.jpg"
+    "image": "/images/de-moc-ham-220000-3.jpg"
   },
   {
     "id": 2,
@@ -17,34 +21,46 @@
     "price": [
       {
         "size": "",
-        "price": "295.000"
+        "price": "310.000"
+      },
+      {
+        "size": "",
+        "price": "300.000"
       }
     ],
-    "description": "12 - 25 kg/con. Dê tơ được làm sạch lông cũng như nội tạng, để nguyên con chỉ bỏ đầu, chân",
-    "image": "/images/dui-de.jpg"
+    "description": "12 - 25 kg/con. Dê được làm sạch, bỏ ruột và vẫn giữ nguyên đầu và chân.",
+    "image": "/images/de-moc-ham-220000-3.jpg"
   },
   {
     "id": 3,
-    "name": "Dê đực tơ nguyên đầu giò. Dê tơ được làm sạch lông cũng như nội tạng, để nguyên con.",
+    "name": "Dê đực tơ nguyên đầu giò",
     "price": [
+      {
+        "size": "",
+        "price": "305.000"
+      },
       {
         "size": "",
         "price": "295.000"
       }
     ],
-    "description": "12 - 25 kg/con",
-    "image": "/images/dui-de.jpg"
+    "description": "12 - 25 kg/con. Dê tơ được làm sạch lông cũng như nội tạng, để nguyên con.",
+    "image": "/images/denguyendaudo.jpg"
   },
   {
     "id": 4,
-    "name": "Dê cái tơ nguyên đầu giò. Dê tơ được làm sạch lông cũng như nội tạng, để nguyên con.",
+    "name": "Dê cái tơ nguyên đầu giò",
     "price": [
+      {
+        "size": "",
+        "price": "295.000"
+      },
       {
         "size": "",
         "price": "285.000"
       }
     ],
-    "description": "12 - 25 kg/con",
-    "image": "/images/dui-de.jpg"
+    "description": "12 - 25 kg/con. Dê tơ được làm sạch lông cũng như nội tạng, để nguyên con.",
+    "image": "/images/denguyendaudo.jpg"
   }
 ]
