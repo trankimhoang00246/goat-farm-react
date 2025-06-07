@@ -14,18 +14,20 @@ const HomPage = () => {
     "https://www.facebook.com/people/Tr%E1%BA%A1i-D%C3%AA-%C4%90%E1%BA%AFk-Mil/61575975924397/"
   );
 
+  const [host, setHost] = useState<string>("https://thitdedakmil.netlify.app");
+
   useEffect(() => {
     fetchData();
   }, []);
 
   const fetchData = async () => {
-    const details = await fetch("../../../public/data_detail.json");
+    const details = await fetch(`${host}/data_detail.json`);
     setDataDetails(await details.json());
 
-    const nguyen = await fetch("../../../public/data_nguyen.json");
+    const nguyen = await fetch(`${host}/data_nguyen.json`);
     setDataNguyen(await nguyen.json());
 
-    const hoi = await fetch("../../../public/data_hoi.json");
+    const hoi = await fetch(`${host}/data_hoi.json`);
     setDataHoi(await hoi.json());
   };
 
@@ -35,11 +37,14 @@ const HomPage = () => {
         title="Thịt Dê Sạch Từ Trại - Giao hàng toàn quốc"
         description="Trang web giới thiệu thịt dê sạch tại nhà nuôi. Giao hàng tận nơi, uy tín – chất lượng – giá tốt."
         keywords="thịt dê, thịt dê tươi, thịt dê sạch, nhà cung cấp thịt dê, thịt dê Hà Nam"
-        url="https://thitdenhanuoi.vn"
-        image="https://thitdenhanuoi.vn/images/og-image.jpg"
+        url={`${host}`}
+        image={`${host}/de_2con.jpg`}
       />
 
-      <header className="bg-green-700 text-white p-6 text-center h-[250px] flex flex-col justify-center items-center bg-[url('../../../public/de_2con.jpg')]  bg-center bg-cover bg-no-repeat ">
+      <header
+        className="bg-green-700 text-white p-6 text-center h-[250px] flex flex-col justify-center items-center  bg-center bg-cover bg-no-repeat "
+        style={{ backgroundImage: `url(${host}/de_2con.jpg)` }}
+      >
         <h1 className="text-3xl font-bold shadow-2xs">
           Thịt Dê Sạch Từ Trại – Giao hàng toàn quốc
         </h1>
@@ -64,11 +69,6 @@ const HomPage = () => {
           <p>Không tăng trọng – Không thuốc tăng trưởng</p>
           <p>Giao hàng tận nơi khu vực toàn quốc</p>
         </div>
-
-        <div>
-          <ProductCarousel productList={dataDetails} phone={phone} />
-        </div>
-
         <div>
           <ProductCarousel
             title="Dê nguyên con làm sẵn"
@@ -77,7 +77,6 @@ const HomPage = () => {
             showNext={false}
           />
         </div>
-
         <div>
           <ProductCarousel
             title="Dê hơi, dê thịt"
@@ -85,6 +84,25 @@ const HomPage = () => {
             phone={phone}
             showNext={false}
           />
+        </div>
+        <div>
+          <ProductCarousel productList={dataDetails} phone={phone} />
+        </div>
+
+        <div>
+          <h2 className="text-2xl font-semibold mb-2">Bảng giá chi tiết</h2>
+          <div>
+            <img
+              src={`${host}/menu1.jpg`}
+              alt="Bảng giá thịt dê"
+              className="w-full h-auto mb-2"
+            />
+            <img
+              src={`${host}/menu2.jpg`}
+              alt="Bảng giá thịt dê"
+              className="w-full h-auto"
+            />
+          </div>
         </div>
 
         <div className="pt-6">
